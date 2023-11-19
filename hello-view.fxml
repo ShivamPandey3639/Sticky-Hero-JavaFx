@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<!--<StackPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickyhero.HelloController">-->
+<!--    <GridPane>-->
+<!--        &lt;!&ndash; Other nodes... &ndash;&gt;-->
+<!--    </GridPane>-->
+<!--    <VBox alignment="BOTTOM_LEFT" spacing="20">-->
+<!--        <padding>-->
+<!--            <Insets bottom="70" left="520" />-->
+<!--        </padding>-->
+<!--        <Button fx:id="agreement" prefHeight="28.0" prefWidth="23.0" style="-fx-font-size: 29px;-fx-font-weight: bold;-fx-background-color:lightblue" text="P">-->
+<!--            <stylesheets>-->
+<!--                <URL value="@style2.css" />-->
+<!--            </stylesheets>-->
+<!--        </Button>-->
+<!--        <Button style="-fx-font-size: 29px; -fx-font-weight: bold; -fx-background-color:white">-->
+<!--            <graphic>-->
+<!--                <ImageView fitHeight="50" fitWidth="50">-->
+<!--                    <Image url="@/Img/hero11.png" />-->
+<!--                </ImageView>-->
+<!--            </graphic>-->
+<!--            <stylesheets>-->
+<!--                <URL value="@style2.css" />-->
+<!--            </stylesheets>-->
+<!--        </Button>-->
+<!--        &lt;!&ndash; Include the Demo button in the VBox &ndash;&gt;-->
+<!--        <Button fx:id="demo" onAction="#onDemo" style="-fx-font-size: 29px; -fx-font-weight: bold; -fx-background-color:lightblue" text="?">-->
+<!--            <stylesheets>-->
+<!--                <URL value="@style2.css" />-->
+<!--            </stylesheets>-->
+<!--        </Button>-->
+<!--    </VBox>-->
+<!--    <GridPane alignment="BOTTOM_CENTER">-->
+<!--        <padding>-->
+<!--            <Insets right="50" bottom="260"/>-->
+<!--        </padding>-->
+<!--        <Pane>-->
+<!--            <ImageView fitHeight="80" fitWidth="147">-->
+<!--                <Image url="@/Img/hero7.png"/>-->
+<!--            </ImageView>-->
+<!--        </Pane>-->
+<!--    </GridPane>-->
+<!--    <StackPane alignment="CENTER" >-->
+<!--        &lt;!&ndash; Other nodes... &ndash;&gt;-->
+<!--        <Button fx:id="play" maxHeight="278.0" maxWidth="237.0" onAction="#onHelloButtonClick" prefHeight="278.0" prefWidth="237.0" style="-fx-font-size: 39px;-fx-background-color:orange;-fx-font-weight: bold" text="Play">-->
+<!--            <stylesheets>-->
+<!--                <URL value="@style.css" />-->
+<!--            </stylesheets>-->
+<!--        </Button>-->
+<!--    </StackPane>-->
+<!--    &lt;!&ndash; Other nodes... &ndash;&gt;-->
+<!--</StackPane>-->
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickyhero.HelloController">
+    <GridPane>
+        <ImageView fitHeight="50" fitWidth="150">
+            <Image url="@/Img/ad.jpg" />
+        </ImageView>
+
+
+    </GridPane>
+    <GridPane alignment="TOP_RIGHT">
+        <ImageView fitHeight="50" fitWidth="150">
+            <Image url="@/Img/ad.jpg" />
+        </ImageView>
+
+
+
+    </GridPane>
+    <GridPane alignment="BOTTOM_RIGHT">
+        <ImageView fitHeight="50" fitWidth="150">
+            <Image url="@/Img/ad.jpg" />
+        </ImageView>
+
+
+    </GridPane>
+    <GridPane alignment="BOTTOM_LEFT">
+        <ImageView fitHeight="50" fitWidth="150">
+            <Image url="@/Img/ad.jpg" />
+        </ImageView>
+
+
+    </GridPane>
+    <ImageView fitHeight="850" fitWidth="1250">
+        <Image url="@/Img/hh.jpg" />
+    </ImageView>
+    <VBox alignment="BOTTOM_LEFT" spacing="20">
+        <padding>
+            <Insets bottom="70" left="520" />
+        </padding>
+<!--        <Button fx:id="agreement" onAction="#onP" prefHeight="28.0" prefWidth="23.0" style="-fx-font-size: 29px;-fx-font-weight: bold;-fx-background-color:lightblue" text="P">-->
+<!--            <stylesheets>-->
+<!--                <URL value="@style2.css" />-->
+<!--            </stylesheets>-->
+<!--        </Button>-->
+        <Button style="-fx-font-size: 29px; -fx-font-weight: bold; -fx-background-color:white">
+            <graphic>
+                <ImageView fitHeight="50" fitWidth="50">
+                    <Image url="@/Img/hero11.png" />
+                </ImageView>
+            </graphic>
+            <stylesheets>
+                <URL value="@style2.css" />
+            </stylesheets>
+        </Button>
+        <Button prefHeight="100.0" prefWidth="100.0" style="-fx-font-size: 13px;-fx-font-weight: bold;-fx-background-color:lightblue" text="NO ADS">
+            <stylesheets>
+                <URL value="@style3.css" />
+            </stylesheets>
+        </Button>
+
+<!--        <Button fx:id="demo" onAction="#onDemo" style="-fx-font-size: 29px; -fx-font-weight: bold; -fx-background-color:lightblue" text="?">-->
+<!--            <stylesheets>-->
+<!--                <URL value="@style2.css" />-->
+<!--            </stylesheets>-->
+<!--        </Button>-->
+        <Button style="-fx-font-size: 29px">
+            <graphic>
+                <ImageView>
+                    <Image url="@/toolbarButtonGraphics/media/Volume24.gif" />
+                </ImageView>
+            </graphic>
+
+            <stylesheets>
+                <URL value="@style2.css" />
+            </stylesheets>
+        </Button>
+
+    </VBox>
+    <VBox alignment="BOTTOM_RIGHT" spacing="10">
+        <padding>
+            <Insets bottom="70" right="520" />
+        </padding>
+        <Button style="-fx-font-size: 29px;-fx-background-color:white">
+            <graphic>
+                <ImageView fitHeight="50" fitWidth="50">
+                    <Image url="@/Img/hero12.png" />
+                </ImageView>
+            </graphic>
+            <stylesheets>
+                <URL value="@style3.css" />
+            </stylesheets>
+        </Button>
+        <Button style="-fx-font-size: 29px;-fx-background-color:white">
+            <graphic>
+                <ImageView fitHeight="50" fitWidth="50">
+                    <Image url="@/Img/watermelon.png" />
+                </ImageView>
+            </graphic>
+            <stylesheets>
+                <URL value="@style3.css" />
+            </stylesheets>
+        </Button>
+    </VBox>
+
+    <GridPane alignment="BOTTOM_CENTER">
+        <padding>
+            <Insets bottom="200.5" right="80" />
+        </padding>
+        <Pane>
+
+            <ImageView fitHeight="80" fitWidth="147">
+                <Image url="@/Img/hero7.png" />
+            </ImageView>
+        </Pane>
+
+    </GridPane>
+    <GridPane alignment="CENTER" hgap="10.0" vgap="10.0">
+        <Button fx:id="play" maxHeight="278.0" maxWidth="237.0" onAction="#onHelloButtonClick" prefHeight="278.0" prefWidth="237.0" style="-fx-font-size: 39px;-fx-background-color:orange;-fx-font-weight: bold" text="Play" GridPane.columnIndex="0" GridPane.rowIndex="21">
+            <stylesheets>
+                <URL value="@style.css" />
+            </stylesheets>
+        </Button>
+
+        <Button fx:id="demo" onAction="#onDemo" style="-fx-font-size: 29px; -fx-font-weight: bold; -fx-background-color:lightblue" text="?" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="22" GridPane.valignment="BOTTOM" >
+            <stylesheets>
+                <URL value="@style2.css" />
+            </stylesheets>
+        </Button>
+        <Button fx:id="agreement" onAction="#onP"  style="-fx-font-size: 29px;-fx-font-weight: bold;-fx-background-color:lightblue" text="P" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM" GridPane.columnIndex="1" GridPane.rowIndex="23">
+            <stylesheets>
+                <URL value="@style2.css" />
+            </stylesheets>
+        </Button>
+
+
+        <Label fx:id="welcomeText" prefHeight="56.0" prefWidth="248.0" style="-fx-font-size: 39px" GridPane.columnIndex="0" GridPane.columnSpan="2147483647" GridPane.rowIndex="0" GridPane.rowSpan="2147483647" />
+
+
+        <Pane GridPane.columnIndex="0" GridPane.rowIndex="24">
+            <children>
+                <Rectangle arcHeight="50.0" arcWidth="50.0" fill="gray" height="270.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            </children>
+        </Pane>
+
+    </GridPane>
+</StackPane>

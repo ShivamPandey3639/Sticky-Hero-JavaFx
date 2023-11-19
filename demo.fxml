@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Rectangle?>
+<?import java.net.URL?>
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.stickyhero.HelloController"
+           prefHeight="400.0" prefWidth="600.0">
+    <GridPane alignment="TOP_CENTER">
+        <Pane>
+            <Rectangle arcHeight="0.0" arcWidth="0.0" fill="black" height="100.0" stroke="BLACK" strokeType="INSIDE" width="1000.0" />
+        </Pane>
+
+    </GridPane>
+    <GridPane alignment="TOP_CENTER">
+        <Label text="How To Play?" prefHeight="90.0" prefWidth="248.0" style="-fx-font-size: 39px;-fx-font-color:white"  />
+    </GridPane>
+    <GridPane alignment="BOTTOM_CENTER">
+        <Pane>
+            <Rectangle arcHeight="0.0" arcWidth="0.0" fill="black" height="150.0" stroke="BLACK" strokeType="INSIDE" width="1000.0" />
+        </Pane>
+
+    </GridPane>
+    <GridPane alignment="BOTTOM_CENTER">
+        <Pane>
+            <padding>
+                <Insets left="600" top="150"/>
+            </padding>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="black" height="200.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+        </Pane>
+
+    </GridPane>
+    <GridPane alignment="BOTTOM_CENTER">
+        <Pane>
+            <padding>
+                <Insets left="600" top="350"/>
+            </padding>
+            <ImageView fitHeight="100" fitWidth="107">
+                <Image url="@/Img/hero7.png"/>
+            </ImageView>
+        </Pane>
+    </GridPane>
+    <GridPane alignment="BOTTOM_RIGHT">
+        <Pane>
+            <padding>
+                <Insets right="500" top="150"/>
+            </padding>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="black" height="200.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+        </Pane>
+
+    </GridPane>
+    <GridPane alignment="BOTTOM_CENTER">
+        <padding>
+            <Insets  right="100" bottom="60"/>
+        </padding>
+        <Button text="Lets Play" style="-fx-font-size: 19px;-fx-font-weight: bold;-fx-background-color:orange">
+            <stylesheets>
+                <URL value="@style4.css" />
+            </stylesheets>
+        </Button>
+    </GridPane>
+
+</StackPane>
